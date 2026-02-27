@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Svatba Klára & Karel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN SCREEN -->
+    <div id="login-screen">
+        <div class="login-box">
+            <h1>Svatba Klára & Karel</h1>
+            <p class="date">XX.XX 2026</p>
+            <img src="DSC09215.jpg" alt="Snoubenci">
+
+            <input type="password" id="password" placeholder="Zadejte heslo">
+            <button onclick="checkPassword()">Vstoupit</button>
+            <p id="error"></p>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main-content">
+
+        <section class="hero">
+            <h1>Svatba Klára & Karel</h1>
+            <p>XX 2026</p>
+
+            <div class="calendar-buttons">
+                <a href="#" class="btn">Přidat do Google kalendáře</a>
+                <a href="svatba.ics" class="btn outline">Apple / Outlook</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Místo konání</h2>
+            <p>Statek XX</p>
+            <iframe src="PASTE_GOOGLE_MAPS_EMBED_ZDE"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Harmonogram</h2>
+            <ul>
+                <li>12:00 – Obřad</li>
+                <li>13:00 – Hostina</li>
+                <li>17:00 – Krájení dortu</li>
+                <li>19:00 – První tanec</li>
+                <li>20:00 – Party</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Dress code</h2>
+            <p>Elegantní. Dámy mohou zvolit jemné tóny, pánové tmavý oblek.</p>
+        </section>
+
+        <section>
+            <h2>Potvrzení účasti</h2>
+            <a href="LINK_NA_FORMULAR" class="btn">Otevřít formulář</a>
+        </section>
+
+        <section>
+            <h2>Ubytování</h2>
+            <p>Možnost ubytování přímo v areálu.</p>
+        </section>
+
+        <section>
+            <h2>Fotogalerie</h2>
+            <a href="LINK_NA_GOOGLE_PHOTOS" class="btn outline">Zobrazit galerii</a>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
